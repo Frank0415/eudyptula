@@ -36,7 +36,10 @@ Challenge 3:
 
 The task for this round is to take the kernel git tree from Task 2 and modify the Makefile as well as the EXTRAVERSION field. Do this in a way that the running kernel (after modifying the Makefile, rebuilding, and rebooting) displays “ve482challenge” in the version string. Prepare a patch for the modified Makefile.
 
+Results:
+
 sudo dmesg | grep "Linux version"
+
 [    0.000000] Linux version 6.17.0-rc6-ve482challenge-YuzhaoShi-g5aca7966d2a7-dirty (frank@xarch) (gcc (GCC) 15.2.1 20250813, GNU ld (GNU Binutils) 2.45.0) #2 SMP PREEMPT_DYNAMIC Thu Sep 18 00:33:22 CST 2025
 
 ------------------------------------------
