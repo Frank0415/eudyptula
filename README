@@ -1,3 +1,19 @@
 My solutions to the VE482 (Introduction to Operating Systems) Challenges, which is a modified version of the Eudyptula Challenges. 
 
+The intention of this README is merely to document requirements for each challenge and the results, if applicable. The actual code for each challenge is in its own directory, with a README for how I solved it and resources used along the way.
+
+------------------------------------------
+
+Challenge 1:
+
+Write a Linux kernel module, and stand-alone Makefile, that when loaded prints to the kernel debug log level, “Good morning ve482!”. Be sure to make the module be able to be unloaded as well.
+The Makefile should build the kernel module against the source for the currently running kernel, or, use an environment variable to specify what kernel tree to build it against.
+
+Results:
+
+journalctl --since "1 minute ago" | grep "ve482" > README
+
+Sep 17 18:37:15 xarch kernel: Good morning ve482!
+Sep 17 18:37:22 xarch kernel: exit by ve482.
+
 ------------------------------------------
