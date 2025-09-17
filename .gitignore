@@ -2,6 +2,7 @@ g1.pdf
 .clang_format
 
 */**
-!*/main.c
-!*/Makefile
-!*/README
+!*/README.md
+
+!1/main.c
+!1/Makefile
