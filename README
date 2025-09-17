@@ -17,3 +17,17 @@ Sep 17 18:37:15 xarch kernel: Good morning ve482!
 Sep 17 18:37:22 xarch kernel: exit by ve482.
 
 ------------------------------------------
+
+Challenge 2:
+
+The tasks for this round is:
+Download Linus’s latest git tree from git.kernel.org.
+Build it, install it, and boot it. Ensure CONFIG_LOCALVERSION_AUTO=y is enabled.
+
+Results:
+
+sudo dmesg | grep "Linux version"
+
+[    0.000000] Linux version 6.17.0-rc6-VE482-Challenge-YuzhaoShi-00007-g5aca7966d2a7 (frank@xarch) (gcc (GCC) 15.2.1 20250813, GNU ld (GNU Binutils) 2.45.0) #1 SMP PREEMPT_DYNAMIC Wed Sep 17 23:34:57 CST 2025
+
+------------------------------------------
