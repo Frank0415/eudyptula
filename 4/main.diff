@@ -1,0 +1,19 @@
+--- main.backup	2025-10-04 23:50:40.634496001 +0800
++++ main.c	2025-10-05 00:32:46.641641836 +0800
+@@ -8,13 +8,13 @@
+ 
+ static int init_mod(void)
+ {
+-    printk(KERN_DEBUG "Good morning ve482!\n");
+-    return 0;
++	printk(KERN_DEBUG "Good morning ve482!\n");
++	return 0;
+ }
+ 
+ static void cleanup_mod(void)
+ {
+-    printk(KERN_DEBUG "exit by ve482.\n");
++	printk(KERN_DEBUG "exit by ve482.\n");
+ }
+ 
+ module_init(init_mod);
