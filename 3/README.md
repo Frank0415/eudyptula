@@ -17,7 +17,11 @@ make olddefconfig
 
 make -j$(nproc)
 
+make CC=clang -j$(nproc) #for clang in sched-ext kernel
+
 sudo make modules_install
+
+sudo make install
 ```
 
 ```bash
