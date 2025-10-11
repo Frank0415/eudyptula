@@ -1,6 +1,8 @@
 g1.pdf
 .clang_format
 
+*
+
 */**
 !*/README.md
 
